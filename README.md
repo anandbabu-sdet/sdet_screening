@@ -16,10 +16,43 @@ sdet-take-home/
 └── test_compare_headers.py
 
 ---
+## Prerequisites
 
-## How to Run the CSV Comparison Tool
+- Python 3.10 or above
+- Git
+  
+## Setup — Virtual Environment (Recommended)
 
-**Prerequisites:** Python 3.10 or above. No third-party packages needed for the main tool.
+### Step 1 — Create virtual environment
+
+```bash
+# Windows
+python -m venv venv
+
+# Mac / Linux
+python3 -m venv venv
+```
+
+### Step 2 — Activate virtual environment
+
+```bash
+# Windows
+venv\Scripts\activate
+
+# Mac / Linux
+source venv/bin/activate
+```
+
+You should see `(venv)` appear at the start of your terminal prompt.
+
+### Step 3 — Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4 — Run the CSV comparison tool
+
 
 ```bash
 python compare_headers.py expected_orders.csv actual_orders.csv
