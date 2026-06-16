@@ -15,3 +15,8 @@ screenshots/*.png
 .vscode/
 *.log
 *.tmp
+
+# Ignore all PNGs except those inside screenshots/
+*.png
+!screenshots/
+!screenshots/*.png
