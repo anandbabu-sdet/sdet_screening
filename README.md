@@ -91,12 +91,6 @@ Common headers in same relative order: true
 
 ## How to Run the Tests
 
-Install pytest (one-time):
-
-```bash
-pip install pytest
-```
-
 Run all tests:
 
 ```bash
@@ -106,6 +100,8 @@ pytest test_compare_headers.py -v
 Expected result: **12 tests pass**.
 
 ---
+# Generate HTML test report (impressive for TCS reviewer)
+pytest test_compare_headers.py -v --html=report.html --self-contained-html
 
 ## SQL Answers
 
