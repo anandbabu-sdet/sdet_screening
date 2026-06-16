@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Test and build artifacts
+.pytest_cache/
+report.html
+screenshots/*.png
+
+# IDE and system files
+.qodo/
+.vscode/
+*.log
+*.tmp
