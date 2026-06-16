@@ -1,0 +1,44 @@
+# =============================================================================
+# TCS SDET Screening Exercise - Python Dependencies
+# Author  : Anandababu M
+# Python  : 3.10+
+#
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Install inside virtual environment (recommended):
+#   python -m venv venv
+#   venv\Scripts\activate        # Windows
+#   source venv/bin/activate     # Mac/Linux
+#   pip install -r requirements.txt
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+# Testing Framework
+# -----------------------------------------------------------------------------
+pytest>=7.4.0               # Core test runner
+pytest-cov>=4.1.0           # Code coverage reporting
+pytest-html>=4.1.0          # HTML test report generation
+pytest-mock>=3.12.0         # Mocking support for unit tests
+
+
+# -----------------------------------------------------------------------------
+# API Testing
+# -----------------------------------------------------------------------------
+requests>=2.31.0            # HTTP client for API test execution
+jsonschema>=4.21.0          # JSON schema validation for API responses
+
+
+# -----------------------------------------------------------------------------
+# Code Quality
+# -----------------------------------------------------------------------------
+flake8>=6.1.0               # PEP8 linting and style checks
+black>=23.9.0               # Code formatter (consistent style)
+
+
+# -----------------------------------------------------------------------------
+# Reporting & Utilities
+# -----------------------------------------------------------------------------
+tabulate>=0.9.0             # Formats comparison output as clean tables
+colorama>=0.4.6             # Cross-platform terminal color support (Windows)
